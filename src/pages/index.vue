@@ -10,7 +10,7 @@
 
 <template>
   <h1 class="text-6xl text-yellow-500 mt-10 p-3 pb-4 pt-1 tracking-tight font-semibold rounded-3xl bg-black">Your <span class="font-bold">Br</span>eaking<span class="font-bold">Ba</span>d daily inspiration</h1>
-  <div class="w-4/5 mx-auto p-5 mt-10 text-xl font-light bg-yellow-600 bg-opacity-90 rounded-md">
+  <div class="w-4/5 mx-auto p-5 mt-10 text-xl font-light bg-yellow-700 bg-opacity-90 rounded-md">
   <div class="flex flex-auto space-x-4 items-center">
     <p class="font-semibold text-2xl">How many quotes would you like to read? </p>
     <input v-model="multiple" @change="multipleQuotes(multiple)" type="text" placeholder="Number of quotes" class=" text-base rounded-md p-2 font-light">
